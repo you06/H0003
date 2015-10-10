@@ -1,5 +1,7 @@
-/*I must say, Photoshop is great.
-Maybe it is great*/
+/*
+  I must say, Photoshop is great.
+  Maybe it is great
+*/
 body {
   margin: 0 auto;
   width: 1280px;
@@ -10,7 +12,7 @@ body {
 }
 
 #navigator {
-  height: 81px;
+  height: 80px;
 }
 #navigator * {
   display: inline-block;
@@ -29,17 +31,15 @@ body {
   font-family: "Bree Serif";
   margin-top: 30px;
 }
-#navigator .naviStyle {
-  font-size: 14px;
-  font-family: "Ubuntu";
-  color: rgb(81, 88, 98);
-}
 #navigator #navi {
   width: 383px;
   height: 100%;
 }
 #navigator #navi li {
   padding: 32px 23px;
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(81, 88, 98);
 }
 #navigator #navi #naviChosen {
   font-size: 15px;
@@ -72,4 +72,45 @@ body {
   font-family: "Ubuntu";
   color: rgb(81, 88, 98);
   line-height: 36px;
+}
+
+#slider {
+  height: 491px;
+}
+#slider #slider4 {
+  height: 100%;
+  background-image: url("./images/sliderBackground4.png");
+  z-index: 0;
+  float: none;
+}
+#slider #slider4 #slider4Head {
+  font-size: 60px;
+  font-family: "Bebas Neue";
+  color: rgb(204, 206, 206);
+  text-align: center;
+  height: 82px;
+  padding-top: 175px;
+}
+#slider #slider4 #slider4Para {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(204, 206, 206);
+  text-align: center;
+}
+#slider #sliderSwitcher {
+  float: left;
+  padding-top: 444px;
+  padding-left: 999px;
+  height: 17px;
+  width: 105px;
+  z-index: 1;
+}
+#slider #sliderSwitch * {
+  float: left;
+  margin-right: 4px;
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  background-color: rgb(173, 173, 173);
+  border-radius: 8px;
 }
